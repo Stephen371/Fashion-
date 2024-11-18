@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+    text-align: center;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    padding: 50px 20px;
+    background-color: #ff4d4d; /* Bright red background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect on image */
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    font-style: italic;
+    color: #fff; /* White text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #f0f0f0; /* Slightly off-white text */
+}
+
+.hero button {
+    background-color: #d32f2f; /* Darker red button */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Button shadow */
+}
+
+.hero button:hover {
+    background-color: #e57373; /* Lighter red on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+/* Gallery Section */
+.gallery {
+    display: none;
+    padding: 20px;
+    background-color: #fff; /* White background for gallery */
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+    border: 3px solid #ff4d4d; /* Red border around images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on images */
+}
+
+/* Footer Section */
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text for contrast */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+footer a {
+    color: #d32f2f; /* Red text for email link */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ff4d4d; /* Brighter red on hover */
+}
